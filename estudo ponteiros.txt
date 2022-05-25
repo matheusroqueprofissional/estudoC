@@ -1,0 +1,22 @@
+Ponteiros
+pra que serve os ponteiros?
+eles servem para que voce consiga acessar o valor de uma variavel atraves de seu endereço na memoria do computador
+quando temos uma variavel x com valor 10
+ao escrevermos &x é nos mostrado o endereço de memoria daquela variavel
+
+para printar o valor de um ponteiro precisamos incluir um  '*ponteiro'
+para printar o endereço de um ponteiro so precisamos de um ' ponteiro'
+
+ponteiro = &x;
+ponteiro aponta para o valor de x;
+
+usamos ponteiros para que altere o valor das variaveis exemplo
+x = 10
+y = x
+x = 30;
+
+print de x e y = 30 e 10; 
+
+
+
+
